@@ -1,0 +1,17 @@
+.navbar-brand img {
+    height: 5rem;
+    width: auto;
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.nav-item a:hover {
+    background-color: whitesmoke;
+    color: green;
+}
