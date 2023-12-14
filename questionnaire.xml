@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <questionnaire xml:lang="fr-FR">
-
-
-
     <personal>
         <nom>Tymchenko</nom>
         <prenom>Vladyslav</prenom>
         <evaluation>Evaluation - M4-Intégration Web</evaluation>
         <title>QUESTIONNAIRE LANGAGES FRONT</title>
     </personal>
-
-
-
     <questions>
         <question id="1">
             <query>Quelle est l’utilité de l’élément ?</query>
-            <answer>L'élément sert à...</answer>
+            <answer>L'élément &lt;element&gt; en HTML est utilisé pour définir un conteneur générique sans signification sémantique propre. Il est souvent employé pour regrouper du contenu ou appliquer des styles via CSS.</answer>
         </question>
         <question id="2">
             <query>Définir la sémantique du web.</query>
@@ -24,7 +18,7 @@
         </question>
         <question id="3">
             <query>Citez des éléments du DOM se référant au contenu textuel d’un structure html.</query>
-            <!-- <answer>Dans le Document Object Model (DOM), les éléments se référant au contenu textuel d'une structure HTML sont généralement des balises telles que <p> pour les paragraphes, <h1> à            <h6> pour les titres, <span> pour les éléments de texte en ligne, etc</answer> -->
+            <answer>Dans le Document Object Model (DOM), les éléments se référant au contenu textuel d'une structure HTML sont généralement des balises telles que &lt;p&gt; pour les paragraphes, &lt;h1&gt; à &lt;h6&gt; pour les titres, &lt;span&gt; pour les éléments de texte en ligne, etc</answer>
         </question>
         <question id="4">
             <query> Qu’est-ce qu’un Framework css ?</query>
@@ -35,9 +29,10 @@
             <answer>Les points communs entre HTML et XML incluent leur structure de balisage, tandis que leurs principales différences résident dans leur objectif : HTML est utilisé pour la structuration du contenu web, tandis que XML est plus générique et flexible pour représenter divers types de données.</answer>
         </question>
         <question id="6">
-            <query>Que contient les éléments head et body ? Quelle est leur relation avec l’objet html ?</query>
-            <answer></answer>
+            <query>Que contient les éléments head et body ? Quelle est leur relation avec l’objet HTML ?</query>
+            <answer>L'élément &lt;head&gt; contient des métadonnées telles que le titre de la page, les liens vers des fichiers CSS ou JavaScript, etc. Il fournit des informations sur la page mais n'affiche pas de contenu visible pour l'utilisateur. En revanche, l'élément &lt;body&gt; contient le contenu réellement affiché sur la page web, tel que les textes, images, vidéos, etc. Ces éléments, ensemble avec l'élément &lt;html&gt;, forment la structure de base d'une page HTML, où &lt;head&gt; fournit les métadonnées et &lt;body&gt; contient le contenu visible pour les utilisateurs.</answer>
         </question>
+
         <question id="7">
             <query>Citez 3 protocoles applicatifs du TCP/IP.  </query>
             <answer>Trois protocoles applicatifs du TCP/IP incluent HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol) et SMTP (Simple Mail Transfer Protocol).</answer>
@@ -48,13 +43,11 @@
         </question>
         <question id="9">
             <query>Comment mettre un commentaire en html5 et en CSS ?</query>
-            <answer>En HTML5, les commentaires sont insérés comme suit :                                                                                                                                                                         <!-- Ce texte est un commentaire -->. En CSS, les commentaires sont écrits entre /* comme ceci */.</answer>
+            <answer>En HTML5, les commentaires sont insérés comme suit :                                                                                                                                                                                                                                                                                                         <!-- Ce texte est un commentaire -->. En CSS, les commentaires sont écrits entre /* comme ceci */.</answer>
         </question>
         <question id="10">
             <query>Quel est le rôle du W3C ? </query>
             <answer>Le W3C (World Wide Web Consortium) est une organisation qui développe des standards pour le web, s'assurant que le web reste ouvert, accessible et interopérable en définissant des spécifications et des recommandations pour les langages comme HTML, CSS, etc.</answer>
         </question>
     </questions>
-
-
 </questionnaire>
