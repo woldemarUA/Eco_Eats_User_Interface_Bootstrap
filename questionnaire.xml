@@ -42,9 +42,10 @@
             <answer>Le modèle client-serveur est une architecture informatique où un client envoie des requêtes à un serveur qui fournit les ressources demandées. Le client est généralement un navigateur web ou une application, tandis que le serveur détient les données et les traitements nécessaires pour répondre aux requêtes du client.</answer>
         </question>
         <question id="9">
-            <query>Comment mettre un commentaire en html5 et en CSS ?</query>
-            <answer>En HTML5, les commentaires sont insérés comme suit :                                                                                                                                                                                                                                                                                                         <!-- Ce texte est un commentaire -->. En CSS, les commentaires sont écrits entre /* comme ceci */.</answer>
+            <query>Comment mettre un commentaire en HTML5 et en CSS ?</query>
+            <answer>En HTML5, les commentaires sont insérés comme suit : &lt;!-- Ce texte est un commentaire --&gt;. En CSS, les commentaires sont écrits entre /* comme ceci */.</answer>
         </question>
+
         <question id="10">
             <query>Quel est le rôle du W3C ? </query>
             <answer>Le W3C (World Wide Web Consortium) est une organisation qui développe des standards pour le web, s'assurant que le web reste ouvert, accessible et interopérable en définissant des spécifications et des recommandations pour les langages comme HTML, CSS, etc.</answer>
